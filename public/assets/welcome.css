@@ -1,0 +1,151 @@
+body{
+	    width: 100%;
+    overflow-x: hidden;
+   
+}
+#logo{
+	
+}
+
+.buy{
+	
+	margin: auto;
+	
+	position: relative;
+	z-index: 3;
+	color: white;
+	font-family: serif;
+	text-shadow: 0 0 8px black;
+}
+
+#love{
+		font-size: 21px;
+	}
+
+
+
+.puppy-image{
+/*	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	height: 100%;*/
+	filter: blur(5px);
+	background-image: url("puppy.jpg");
+	height:400px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
+}
+.main-title{
+	  position: relative;
+    left: 35%;
+    top: -600px;
+}
+
+.jumbotron{
+	text-align: center;
+	background-color: #ff4d4d;
+	color: white; 
+	font-family: serif;
+	text-shadow: 0 0 8px black;
+	margin-top: -50vh;
+	position: relative;
+	z-index: 9;
+}
+
+
+
+@media only screen and (max-width: 684px) {
+	.main-title{
+			position: relative;
+		    left: 0;
+		    top: -800px;
+		    margin: 10px;
+	}
+	#user{
+		font-size: 21px;
+	}
+}
+    .fb-button{
+    	width: 32%;
+    }
+
+    .ig-button{
+    	width: 32%;
+    }
+
+    .twitter-button{
+    	width: 32%;
+    }
+
+@media only screen and (min-width: 684px) and (max-width:900px){
+	.main-title{
+			position: relative;
+		    left: 20vh;
+		    top: -800px;
+		    margin: 10px;
+	}
+
+
+}
+
+@media only screen and (min-width: 900px) and (max-width:1300px){
+	.main-title{
+			position: relative;
+		    left: 20vh;
+		    top: -800px;
+		    margin: 10px;
+	}
+}
+
+@media only screen and (min-width: 1300px) and (max-width:2000px){
+	.main-title{
+			position: relative;
+		    left: 50vh;
+		    top: -800px;
+		    margin: 10px;
+	}
+}
+
+.footer{
+	
+  border-top-left-radius: 300%;
+  border-top-right-radius: 300%;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff4d4d;
+  color: white;
+  text-align: center;
+  margin-left: 3px;
+  margin:auto;
+
+
+
+}
+
+.images{
+	width: 20%;
+	margin-bottom: 10%;
+	margin-right: 5%;
+	border-radius: 50%;
+	display:inline;
+
+}
+
+.cards{
+	border: 1px solid black;
+	
+}
+
+
+
+

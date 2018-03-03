@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to RendezWouf!</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="./assets/welcome.css">
+  <link rel="stylesheet" type="text/css" href="./assets/savedimages.css">
+</head>
+<body>
+
+    <div class="puppy-image img-fluid"></div> 
+  <div class="main-title">
+    <img id="logo" class="buy img-fluid" src="./assets/rendezwouf.png">
+    <h2 id="love" class="buy">You Can't Buy Love, But You Can Rescue It.</h2>
+  </div>
+ </div> 
+
+ <!--WELCOME JUMBOTRON-->
+
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Welcome Jonathon!</h1>
+    <p class="lead">View Your Saved Pups Below</p>
+  <a href="index.html">
+    <button class="btn">Homepage</button>
+  </a>
+  </div>
+</div>
+ 
+ <div class="container">
+ 
+<div class="dogcard">
+
+<div class="images"></div>
+
+</div>
+
+</div>
+
+ 
+
+<!-- The expanding image container -->
+<div class="image-container row">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/welcome.js"></script>
+
+<!--Footer-->
+
+<div class="footer row">
+
+    <div class= "ig-button col-md-4"><img src="dgIG.png" height="100%" width="30%"></div>
+
+   <div class= "twitter-button col-md-4"><img src="dgTT.png" height="100%" width="30%"></div>
+
+    <div class="fb-button col-md-4" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"><img src="dgFB.png" height="100%" width="30%"></div>
+    
+
+</div>
+
+
+</body>
+</html>

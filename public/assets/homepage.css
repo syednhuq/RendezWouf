@@ -1,0 +1,189 @@
+body{
+	    width: 100%;
+    overflow-x: hidden;
+    background-image: url("regal.png");
+}
+#logo{
+	
+}
+
+.buy{
+	
+	margin: auto;
+	
+	position: relative;
+	z-index: 3;
+	color: white;
+	font-family: serif;
+	text-shadow: 0 0 8px black;
+}
+
+.puppy-image{
+/*	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	height: 100%;*/
+	filter: blur(5px);
+	background-image: url("puppy.jpg");
+	height:800px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.main-title{
+	  position: relative;
+    left: 35%;
+    top: -600px;
+}
+
+
+
+
+@media only screen and (max-width: 684px) {
+	.main-title{
+			position: relative;
+		    left: 0;
+		    top: -800px;
+		    margin: 10px;
+	}
+	#love{
+		font-size: 21px;
+		text-align: center;
+	}
+
+
+  
+}
+
+@media only screen and (min-width: 684px) and (max-width:900px){
+	.main-title{
+			position: relative;
+		    left: 20vh;
+		    top: -800px;
+		    margin: 10px;
+	}
+	
+
+
+}
+
+@media only screen and (min-width: 900px) and (max-width:1300px){
+	.main-title{
+			position: relative;
+		    left: 20%;
+		    top: -800px;
+		    margin: 10px;
+	}
+}
+
+@media only screen and (min-width: 1300px) and (max-width:2000px){
+	.main-title{
+			position: relative;
+		    left: 30%;
+		    top: -800px;
+		    margin: 10px;
+	}
+}
+
+
+.bestfriend{
+	
+	background-image: url("regal.png");
+	margin-top: -600px;
+	position: relative;
+	z-index: 9;
+	padding-top: 5%;
+	padding-bottom: 10%;
+
+
+
+}
+.footer {
+    border-top-left-radius: 300%;
+    border-top-right-radius: 300%;
+ 
+   width: 100%;
+   background-color: #ff4d4d;
+   color: white;
+   text-align: center;
+
+}
+
+.puppyimage{
+	height: 20%;
+}
+
+
+
+  #start1{
+  	border-radius: 60%;
+  	padding: 5%;
+  	background-color: pink;
+  	margin-bottom: 5%;
+  	margin-left: 18vh;
+  }
+
+  #no{
+  		border-radius: 60%;
+  	padding: 2%;
+  	background-color: cyan;
+  	margin-bottom: 5%;
+  	
+	  margin-left: 5vh;
+	  background-image: url("no.png");
+	  background-size: 30%;
+  }
+
+  .yess{
+  	border-radius: 60%;
+  	padding: 3%;
+  	background-color: pink;
+	  margin-bottom: 5%;
+	  background-image: url("yes.png");
+	  background-size: 30%;
+  }
+
+  .box{
+  	border: 2px solid black;
+  	border-style: double;
+  	margin-right: 25vh;
+  	
+  }
+
+  .save{
+  		border-radius: 60%;
+  	padding: 3%;
+  	background-color: Fuchsia ;
+  	margin-bottom: 5%;
+	  margin-left: 13vh;
+	  background-image: url("house.png");
+	  background-size: 30%;
+  }
+
+  .card{
+	margin-left: 2vh;
+  }
+
+  #lightbox {
+
+	background: rgb(255, 255, 255);
+  	border: 20px solid rgba(247, 6, 6, 0.3);
+	-moz-background-clip: border;     /* Firefox 3.6 */
+	-webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+	background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+				  
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+				  
+	-moz-background-clip: content;     /* Firefox 3.6 */
+	-webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+	background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+				  
+  }
