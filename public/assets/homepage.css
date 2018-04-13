@@ -25,12 +25,13 @@ body{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
+	height: 100%;
 	z-index: 1;
-	height: 100%;*/
+	width: 100%;*/
 	filter: blur(5px);
 	background-image: url("puppy.jpg");
 	height:800px;
+	/* width: 200px; */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -116,37 +117,40 @@ body{
 }
 
 .puppyimage{
-	height: 20%;
+	height: 10%;
+	width: 100%;
 }
 
 
 
   #start1{
-  	border-radius: 60%;
-  	padding: 5%;
+  	border-radius: 50%;
+  	padding: 10%;
   	background-color: pink;
   	margin-bottom: 5%;
   	margin-left: 18vh;
   }
 
   #no{
-  		border-radius: 60%;
-  	padding: 2%;
+  		border-radius: 50%;
+  	padding: 10%;
   	background-color: cyan;
   	margin-bottom: 5%;
   	
 	  margin-left: 5vh;
 	  background-image: url("no.png");
-	  background-size: 30%;
+	  background-size: 50%;
+	  background-repeat: no-repeat;
   }
 
   .yess{
-  	border-radius: 60%;
-  	padding: 3%;
+  	border-radius: 50%;
+  	padding: 10%;
   	background-color: pink;
 	  margin-bottom: 5%;
 	  background-image: url("yes.png");
-	  background-size: 30%;
+	  background-size: 50%;
+	  background-repeat: no-repeat;
   }
 
   .box{
@@ -157,17 +161,19 @@ body{
   }
 
   .save{
-  		border-radius: 60%;
-  	padding: 3%;
+  		border-radius: 50%;
+  	padding: 10%;
   	background-color: Fuchsia ;
   	margin-bottom: 5%;
 	  margin-left: 13vh;
 	  background-image: url("house.png");
-	  background-size: 30%;
+	  background-size: 50%;
+	  background-repeat: no-repeat;
   }
 
   .card{
 	margin-left: 2vh;
+	margin-right: 2vh;
   }
 
   #lightbox {
